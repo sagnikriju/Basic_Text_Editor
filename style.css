@@ -1,0 +1,94 @@
+body {
+    background-color: aqua;
+}
+
+p {
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: "Bookman Old Style", Times New Roman, serif;
+    font-size: 3.5ch;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    width: 50vw;
+    padding: 2%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    gap: 22px;
+    padding-right: 6%;
+}
+
+.mmid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: auto;
+    gap: 7px;
+}
+
+
+.options {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    gap: 7px;
+    padding: 5px;
+}
+
+button {
+    background-color: white;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border: none;
+}
+
+select {
+    margin: 2px;
+    border: 1%;
+    border-radius: 5px;
+    border-color: #000000;
+    background-color: transparent;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+input[type="color"] {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #000000;
+}
+
+input[type="color"]::-moz-color-swatch {
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #000000;
+}
+
+#text-input {
+    margin-top: 10px;
+    border: 1px solid #dddddd;
+    padding: 10px;
+    height: 37vh;
+}
+
